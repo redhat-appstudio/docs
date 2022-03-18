@@ -60,7 +60,7 @@ This step should go away once the following enhancements/issues are resolved:
 :hotsprings: **NOTE**
 This step should go away once the following enhancements/issues are resolved:
 1. Concept of 'environments' is introduced.
-2. GitOps repository has the 'environments' directory as per the [Repository Template](https://github.com/redhat-appstudio/gitops-repository-template).
+2. GitOps repository has the 'environments' directory as per the [Repository Template](https://github.com/redhat-appstudio/gitops-repository-template): [DEVHAS-87](https://issues.redhat.com/browse/DEVHAS-87).
 3. GitOps Service automatically generates a `GitOpsDeployment` CR referencing the user's GitOps repository URL and the path to the 'PoC' environment.
 
 
