@@ -5,7 +5,7 @@
 
 ### Create an account
 
-Sign up for AppStudio https://docs.google.com/document/d/1hFvQDH1H6MGNqTGfcZpyl2h8OIaynP8sokZohCS0Su0/edit 
+Sign up for AppStudio https://docs.google.com/document/d/1hFvQDH1H6MGNqTGfcZpyl2h8OIaynP8sokZohCS0Su0
 and request one of the approvers to let you in.
 
 
