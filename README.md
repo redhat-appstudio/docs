@@ -37,30 +37,30 @@ type: kubernetes.io/dockerconfigjson
 ```
 
 :hotsprings:	**NOTE**
-This step should go away when:
+This step should go away once the following enhancements/issues are resolved:
 1. The UI enables users to configure their Quay.io location
 2. [SVPI-57]( https://issues.redhat.com/browse/SVPI-57) Quay.io authentication is possible using an SPI-driven flow 
 3. [build-service/pull/65](https://github.com/redhat-appstudio/application-service/pull/65) Build Service sets up the default pull secret for every user.
 
 ### Build your first Component
 
-1. Using the wizard, create an Application and add a component with the Git URL https://github.com/sbose78/dc-metro-map
+1. Using the wizard, create an `Application` and add a `Component` with the Git URL https://github.com/sbose78/dc-metro-map
 3. Set the port to "8080" in the UI.
 4. Set the resources to "200m" and "256MiB" in the UI.
 5. Hit Create. 
 
 :hotsprings:	**NOTE**
-* If the Component creation fails, you've most likely hit a bug <Placeholder for the UI Bug>, please recreate the `Component` with a different name.  
+* If the `Component` appears to succeed, yet no Build gets triggered, you've most likely hit a bug <Placeholder for the UI Bug>, please recreate the `Component` with a different name.  
 
 ### Deploy your first Component
 
 1. Find the URL to your GitOps repository in the generated `Application` CR.
 2. Create the GitOpsDeployment resource(s) in your namespace/workspace as per the example https://gist.github.com/sbose78/152fdf1028fda427f9bf12e444de6311 . Replace the repo URL and path with those in your GitOps repository.
 
-**NOTE**
-This step should eventually when,
+:hotsprings: **NOTE**
+This step should go away once the following enhancements/issues are resolved:
 1. Concept of 'environments' is introduced.
-2. GitOps repository has the "environments" directory.
+2. GitOps repository has the 'environments' directory as per the [Repository Template](https://github.com/redhat-appstudio/gitops-repository-template).
 3. GitOps Service automatically generates a `GitOpsDeployment` CR referencing the user's GitOps repository URL and the path to the 'PoC' environment.
 
 
