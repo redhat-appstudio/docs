@@ -11,7 +11,7 @@ and request one of the approvers to let you in.
 
 ### Run the UI
 
-The UI isn't hosted anywhere at the momemnt. Therefore, you'd need to run it locally. 
+The UI isn't hosted anywhere at the moment. Therefore, you'd need to run it locally. 
 Please see https://github.com/openshift/hac-dev/ for detailed steps.
 
 :hotsprings:	**NOTE**
