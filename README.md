@@ -49,6 +49,11 @@ This step should go away once the following enhancements/issues are resolved:
 4. Set the resources to "200m" and "256MiB" in the UI.
 5. Hit Create. 
 
+Note, following are the port numbers to be used for the source code repositories being imported
+1. https://github.com/sbose78/dc-metro-map runs on port 8080
+2. https://github.com/devfile-samples/devfile-sample-code-with-quarkus runs on port 8081
+3. https://github.com/devfile-samples/devfile-sample-java-springboot-basic runs on port 8081
+
 :hotsprings:	**NOTE**
 * If the `Component` appears to succeed, yet no Build gets triggered, you've most likely hit a bug <Placeholder for the UI Bug>, please recreate the `Component` with a different name.  
 
