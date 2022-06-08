@@ -8,16 +8,7 @@
 Sign up for AppStudio https://docs.google.com/document/d/1hFvQDH1H6MGNqTGfcZpyl2h8OIaynP8sokZohCS0Su0
 and request one of the approvers to let you in.
 
-
-### Run the UI
-
-The UI isn't hosted anywhere at the moment. Therefore, you'd need to run it locally. 
-Please see https://github.com/openshift/hac-dev/ for detailed steps.
-
-:hotsprings:	**NOTE**
-This step should go away once the UI is hosted on a staging environment.
-
-## Deploy your first Application
+AppStudio is currently hosted in https://console.dev.redhat.com/hac/app-studio
 
 
 ### Build and Deploy your first Component
